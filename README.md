@@ -153,3 +153,54 @@ Programming languages like JavaScript, Python, Ruby use interpreters | Programmi
 #
 
 ![img](https://github.com/c0st/C/blob/main/Drawables/working.png)
+
+**What are the Features of C Language?**
+
+- Simple and Efficient
+- Fast
+- Availability of only the essential and required features
+- Portability
+- Extensibility
+- Function-Rich Libraries
+- Dynamic Memory Management
+- Modularity With Structured Language
+- Mid-Level Programming Language
+- Pointers
+- Recursion
+
+
+**Basic Structure of C Program**
+
+Section | Description
+-- | --
+Documentation | Consists of the description of the program, programmer's name, and creation date. These are generally written in the form of comments
+Link | All header files are included in this section which contains different functions from the libraries. A copy of these header files is inserted into your code before compilation
+Definition | Includes preprocessor directive, which contains symbolic constants
+Global Declaration | Includes declaration of global variables, function declarations, static global variables, and functions
+Main() | Function	For every C program, the execution starts from the main() function. It is mandatory to include a main() function in every C program
+Subprograms | Includes all user-defined functions (functions the user provides). They can contain the inbuilt functions, and the function definitions declared in the Global Declaration section. These are called in the main() function
+
+**Execution of C Program**
+
+```
+// file name - simple.c
+
+#include <stdio.h>
+
+int main(){    
+    printf("Hello C Language");    
+    return 0;   
+}  
+```
+
+1) C program (source code) is sent to preprocessor first. The preprocessor is responsible to convert preprocessor directives into their respective values. The preprocessor generates an expanded source code.
+
+2) Expanded source code is sent to compiler which compiles the code and converts it into assembly code.
+
+3) The assembly code is sent to assembler which assembles the code and converts it into object code. Now a simple.obj file is generated.
+
+4) The object code is sent to linker which links it to the library such as header files. Then it is converted into executable code. A simple.exe file is generated.
+
+5) The executable code is sent to loader which loads it into memory and then it is executed. After execution, output is sent to console.
+
+![img](https://github.com/c0st/C/blob/main/Drawables/Programflow.png)
