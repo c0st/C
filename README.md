@@ -204,3 +204,22 @@ int main(){
 5) The executable code is sent to loader which loads it into memory and then it is executed. After execution, output is sent to console.
 
 ![img](https://github.com/c0st/C/blob/main/Drawables/Programflow.png)
+
+**Rules for naming a variable**
+
+- A variable name can only have letters, digits and underscore
+- The first letter of a variable should be either a letter or an underscore
+- There is no rule on how long a variable name (identifier) can be
+- You should always try to give meaningful names to variables
+
+**Keywords and Identifiers in C**
+
+- Keywords are the reserved words in C language. They have special meaning and cannot be used as a constant or variable or any other identifier names. Keywords are not case sensitive.
+
+- Identifiers are user-defined names to represent a variable, function, array, or any other user-defined item. An identifier name can be a combination of letters, digits, and underscores. An identifier name must not start with a digit. Keywords cannot be used as identifiers.
+
+[List of all keywords in C](https://www.programiz.com/c-programming/list-all-keywords-c-language)
+
+**Data Types in C**
+
+![img](https://github.com/c0st/C/blob/main/Drawables/DataTypes.jpg)
