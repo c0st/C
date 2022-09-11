@@ -134,3 +134,22 @@ by Brian W. Kernighan and Dennis M. Ritchie
 
 ***
 
+**High vs Low Level Programming**
+
+- High level programming languages are easier to learn and use, but they are slower and less efficient than low level languages
+- High level languages are more portable than low level languages
+- Python, Java, C#, C++, and JavaScript are examples of high level languages
+- Assembly language, machine language, and C are examples of low level languages
+
+**Compiler vs Interpreter**
+
+Interpreter | Compiler
+-- | --
+Translates program one statement at a time | Scans the entire program and translates it as a whole into machine code.
+Interpreters usually take less amount of time to analyze the source code. However, the overall execution time is comparatively slower than compilers | Compilers usually take a large amount of time to analyze the source code. However, the overall execution time is comparatively faster than interpreters.
+No Object Code is generated, hence are memory efficient | Generates Object Code which further requires linking, hence requires more memory.
+Programming languages like JavaScript, Python, Ruby use interpreters | Programming languages like C, C++, Java use compilers.
+
+#
+
+![img](https://github.com/c0st/C/blob/main/Drawables/working.png)
