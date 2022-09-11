@@ -135,3 +135,27 @@ by Brian W. Kernighan and Dennis M. Ritchie
 **What is C Language?**
 
 [C](https://en.wikipedia.org/wiki/C_(programming_language)) is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential.
+
+**Bit, Byte and Words**
+
+- A bit is the smallest unit of information in a computer. It is either a 0 or a 1
+- A byte is a group of 8 bits
+- A word is a group of 4 bytes
+- A nibble is a group of 4 bits
+
+Storage | Bits
+-- | --
+1 Byte | 8
+1 Word | 32 or 64
+1 Kilo Byte | 1024
+1 Mega Byte | 1024 * 1024
+1 Giga Byte | 1024 * 1024 * 1024
+1 Tera Byte | 1024 * 1024 * 1024 * 1024
+1 Peta Byte | 1024 * 1024 * 1024 * 1024 * 1024
+
+**CPU**
+
+- CPU is the part of the computer that performs the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in a computer program
+
+![img](http://computerscience.gcse.guru/wp-content/uploads/2016/04/Von-Neumann-Architecture-Diagram.jpg)
+
