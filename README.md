@@ -222,4 +222,4 @@ int main(){
 
 **Data Types in C**
 
-![img](https://github.com/c0st/C/blob/main/Drawables/DataTypes.jpg)
+![img](https://github.com/c0st/C/blob/main/Drawables/Datatypes.jpg)
