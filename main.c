@@ -3,6 +3,9 @@
 
 int main() {
     system("cls"); // Clear the screen
-    printf("Hello, World!");
+
+    char name[20];
+    scanf("%[0123]", name);
+    printf("%s", name);
     return 0;
 }
